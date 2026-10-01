@@ -1,0 +1,516 @@
+@font-face{
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+}
+
+body{
+	background-color: #ECF0F1;
+	margin: 0px;
+}
+
+h1{
+	color: black;
+	justify-content: center;
+}
+
+h2{
+	float: left;
+}
+
+div{
+	font-family: Trebuchet MS;
+}
+
+.flexy{
+	display: flex;
+	justify-content: center;
+}
+.flexy2{
+	display: flex;
+	width: 50%;
+}
+.flexy3{
+	display: flex;
+	width: 100%;
+}
+.flexy4{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.imgcent{
+	justify-content: center;
+	margin: auto;
+}
+
+.hrreplacement{
+	background-color: #BDC3C7;
+	height: 50px;
+}
+
+#canipleaseseethetitleofmyelectronicportfolio{
+	margin-top: 150px;
+}
+#pleasestoptouchingtheedgeofmyscreen{
+	margin: 7%;
+}
+#pleasemakemynamecenteredwiththeimagenexttoit{
+	margin: auto;
+}
+#pleasemakethislookslightlynicersoistoplosingmymind{
+	margin-top: 20px;
+}
+
+.navbar{
+	background-color: #BDC3C7;
+ 	text-align: center;
+	padding-right: 32px;
+	padding-bottom: 15px;
+ 	text-decoration: none;
+  	font-size: 17px;
+  	width: 100%;
+  	position: fixed;
+  	top: 0;
+}
+
+.footer{
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	color: white;
+  	text-align: left;
+  	background-color: #7F8C8D;
+  	margin: 0px;
+  	color: black;
+  	padding-top: 3px;
+  	padding-bottom: 3px;
+  	padding-left: 20px;
+  	display: flex;
+  	position: relative;
+}
+#nameFooter{
+	width: 30%;
+	padding-left: 10px;
+}
+#contactFooter{
+	width: 70%;
+}
+#contacts{
+	justify-content: right;
+	list-style-type: none;
+	display: grid;
+	padding-right: 60px;
+}
+
+a:link{
+	color: #BDC3C7;
+}
+a:visited{
+	color: black;
+}
+
+.navbar a:link{
+	color: #34495E;
+}
+
+.navbar a:hover {
+  	color: white;
+}
+
+.navbar a.active {
+  	color: black;
+}
+
+.banner{
+	background-color: 34495E;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 17px;
+	text-align: center;
+}
+
+#websiteOneImageBox{
+	display: flex;
+	background-color: #34495E;
+	width: 40%;
+	height: 300px;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 20px;
+	padding: 10px;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#websiteTwoImageBox{
+	display: flex;
+	background-color: #34495E;
+	width: 40%;
+	height: 300px;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 20px;
+	padding: 10px;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#websiteTwo{
+	zoom: 0.6;
+}
+#clockImageBox{
+	display: flex;
+	background-color: #34495E;
+	width: 40%;
+	height: 360px;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#clock{
+	zoom: 0.5;
+	overflow: hidden;
+}
+
+#penguinImageBox{
+	display: flex;
+	background-color: #34495E;
+	width: 40%;
+	height: 370px;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 20px;
+	padding: 10px;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#penguin{
+	zoom: 0.5625;
+}
+
+#mondrianImageBox{
+	display: flex;
+	background-color: #34495E;
+	width: 40%;
+	height: 370px;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 20px;
+	padding: 10px;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#mondrian{
+	zoom: 0.781;
+}
+
+.imagebox{
+	display: flex;
+	background-color: #34495E;
+	width: 40%;
+	height: 400px;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 20px;
+	padding: 10px;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#imgZoom{
+	zoom: 0.65;
+}
+#imgZoomTwo{
+	zoom: 0.75;
+}
+#imgZoomThree{
+	zoom: 1.5;
+}
+#csZoom{
+	zoom: 0.23;
+}
+
+.certificationImageBox{
+	display: flex;
+	background-color: #34495E;
+	width: 40%;
+	height: 430px;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 20px;
+	padding: 10px;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.certificationZoom{
+	zoom: 0.5;
+}
+.chsCertificationImageBox{
+	display: flex;
+	background-color: #34495E;
+	width: 40%;
+	height: 430px;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 20px;
+	padding: 10px;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.chsZoom{
+	zoom: 0.75;
+}
+.wbCertificationImageBox{
+	display: flex;
+	background-color: #34495E;
+	width: 40%;
+	height: 430px;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 20px;
+	padding: 10px;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.wbZoom{
+	zoom: 0.6;
+}
+#pdfViewer{
+	display: block;
+}
+
+.resume{
+	display: flex;
+	width: 50%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.title{
+	font-size: 20px;
+	margin-top: 10px;
+}
+.description{
+	font-size: 16px;
+}
+
+/*@media screen and (max-width: 680px){
+	.flexy{
+		display: flex;
+		justify-content: center;
+	}
+	.flexy2{
+		display: flex;
+		width: 45%;
+	}
+	.flexy3{
+		display: flex;
+		width: 100%;
+	}
+	.flexy4{
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.navbar{
+		background-color: #C8AE7E;
+	 	text-align: center;
+		padding: 14px 16px;
+	 	text-decoration: none;
+	  	font-size: 17px;
+	  	width: 100%;
+	  	position: fixed;
+	  	top: 0;
+	}
+
+	.footer{
+	  	left: 0;
+	  	bottom: 0;
+	  	width: 100%;
+	  	color: white;
+	  	text-align: left;
+	  	background-color: #C8AE7E;
+	  	margin: 0px;
+	  	color: black;
+	  	display: flex;
+	  	position: relative;
+	}
+
+	.banner{
+		background-color: #D0C39F;
+		padding-left: 25px;
+		padding-right: 25px;
+		margin-bottom: 17px;
+		text-align: center;
+	}
+
+	.imagebox{
+		background-color: #D0C39F;
+		width: 40%;
+		height: 150px;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-bottom: 20px;
+		padding: 5px;
+		text-align: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	#websiteOneImageBox{
+		display: flex;
+		background-color: #D0C39F;
+		width: 40%;
+		height: 300px;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-bottom: 20px;
+		padding: 10px;
+		text-align: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	#websiteTwoImageBox{
+		display: flex;
+		background-color: #D0C39F;
+		width: 40%;
+		height: 300px;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-bottom: 20px;
+		padding: 10px;
+		text-align: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	#websiteTwo{
+		zoom: 0.5;
+	}
+	#clockImageBox{
+		display: flex;
+		background-color: #D0C39F;
+		width: 40%;
+		height: 225px;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-bottom: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+		text-align: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	#clock{
+		zoom: 0.286;
+		overflow: hidden;
+	}
+	
+	#penguinImageBox{
+		display: flex;
+		background-color: #D0C39F;
+		width: 40%;
+		height: 250px;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-bottom: 20px;
+		padding: 10px;
+		text-align: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	#penguin{
+		zoom: 0.35;
+	}
+
+	#mondrianImageBox{
+		display: flex;
+		background-color: #D0C39F;
+		width: 40%;
+		height: 250px;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-bottom: 20px;
+		padding: 10px;
+		text-align: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	#mondrian{
+		zoom: 0.5;
+	}
+
+	.certificationImageBox{
+		display: flex;
+		background-color: #D0C39F;
+		width: 40%;
+		height: 215px;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-bottom: 20px;
+		padding: 10px;
+		text-align: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.certificationZoom{
+		zoom: 0.225;
+	}
+	.chsCertificationImageBox{
+		display: flex;
+		background-color: #D0C39F;
+		width: 40%;
+		height: 240px;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-bottom: 20px;
+		padding: 10px;
+		text-align: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.chsZoom{
+		zoom: 0.25;
+	}
+	}
+	.wbCertificationImageBox{
+		display: flex;
+		background-color: #D0C39F;
+		width: 40%;
+		height: 242px;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-bottom: 20px;
+		padding: 10px;
+		text-align: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.wbZoom{
+		zoom: 0.225;
+	}
+
+	#resume{
+		display: flex;
+		justify-content: center;
+	}
+
+	.description{
+		display: none;
+	}
+
+	h3{
+		font-size: 15px;
+	}
+}*/
